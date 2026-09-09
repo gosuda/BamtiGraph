@@ -1,6 +1,6 @@
 {
   "name": "bamtigraph",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Dependency-free, fixed-pixel time-series graphs for browsers, Node.js and Deno, with a native Go port",
   "license": "BSD-3-Clause",
   "author": "GoSuda",

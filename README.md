@@ -10,6 +10,18 @@ Turn traffic, CPU, memory, and other measurements into clear time-series charts.
 - Choose your colors, labels, and time zone.
 - Keep charts unbranded or add your own text.
 
+## See it in action
+
+These images were rendered with BamtiGraph using the included sample data.
+
+### Daily and weekly traffic
+
+![Daily and weekly traffic charts](https://raw.githubusercontent.com/gosuda/BamtiGraph/v1.0.0/docs/images/traffic.png)
+
+### CPU, memory, and temperature
+
+![CPU, memory, and temperature charts](https://raw.githubusercontent.com/gosuda/BamtiGraph/v1.0.0/docs/images/metrics.png)
+
 ## Try the demo
 
 From the project folder:
@@ -83,6 +95,8 @@ await writeFile("branded.png", branded.toPNG());
 In Go, set `graph.Watermark = "My network"`, or pass `-watermark "My network"` to the command-line example. Use `BAMTIGRAPH` if you want the library name, or an empty string to remove the text.
 
 In the demo, use **Custom edge text**. You can also change the surrounding page labels in `assets/brand.js`.
+
+![Chart with an optional BAMTIGRAPH label](https://raw.githubusercontent.com/gosuda/BamtiGraph/v1.0.0/docs/images/custom-label.png)
 
 ## Explore more
 

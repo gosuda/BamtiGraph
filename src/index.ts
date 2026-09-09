@@ -426,7 +426,7 @@ type MountedCanvas = HTMLCanvasElement & {
 };
 
 /** BamtiGraph library version. */
-export const VERSION: string = "0.1.0";
+export const VERSION: string = "1.0.0";
 /** Per-operation allocation and enumeration guards. */
 export const LIMITS: Readonly<{
   pixels: number;
