@@ -1,0 +1,80 @@
+{
+  "version": "1.0.0",
+  "runtimes": {
+    "node": "v24.4.1",
+    "deno": "2.9.4",
+    "go": "go1.27.0 darwin/arm64",
+    "browser": "Chromium 150"
+  },
+  "sources": {
+    "typescriptArchive": {
+      "file": "timeseries-canvas-white-label-1.0.0.zip",
+      "sha256": "dc724dd8c0c3130333b5b6c2ac40370456e94cbb1003176d94f944b0b8e660b9"
+    },
+    "goArchive": {
+      "file": "rrdpixel-go-1.0.0.zip",
+      "sha256": "f28f69b80c10e75aabfa6b86dafd18ca26e21b8c733a15fe7ed99df92704e3ef"
+    }
+  },
+  "pixelComparison": {
+    "comparisons": 104,
+    "comparedPixels": 32641700,
+    "differentPixels": 0,
+    "differentChannels": 0,
+    "maxError": 0,
+    "channels": "RGBA",
+    "wholeImage": true,
+    "tolerance": 0,
+    "alignment": false,
+    "cropping": false,
+    "scales": [
+      1,
+      2
+    ],
+    "watermarks": [
+      "",
+      "BAMTIGRAPH"
+    ],
+    "nativeFont": "Menlo.ttc",
+    "nativeFontSHA256": "dc256e0b39c2a6fec947129d421fef41b8b429f58f9b6e5d1b148c87f775c1f6"
+  },
+  "checks": {
+    "typescriptStrict": true,
+    "denoCheck": true,
+    "jsrFastTypesAndPublishDryRun": true,
+    "nodeTests": {
+      "passed": 106,
+      "failed": 0
+    },
+    "goTests": true,
+    "goRace": true,
+    "goVet": true,
+    "goGoldenActuallyExecuted": true,
+    "installedNpmTarballESMAndCJS": true,
+    "denoSourceRuntime": true,
+    "nativeCLIWithCSV": true,
+    "nativeTTFAndTTC": true,
+    "browserTests": {
+      "passed": 21,
+      "failed": 0
+    },
+    "browserExamples": 5,
+    "standaloneExternalResources": 0,
+    "exact2xReplication": true,
+    "watermarkConfinedToRightMargin": true,
+    "clearingWatermarkRestoresOriginalRGBA": true
+  },
+  "publication": {
+    "npm": "bamtigraph@1.0.0",
+    "jsr": "@safe/bantigraph@1.0.0",
+    "published": false,
+    "tarball": "bamtigraph-1.0.0.tgz"
+  },
+  "limits": [
+    "Each language is compared with its own original implementation, not with the other language.",
+    "Installed native fonts and browser system-font rasterizers are not interchangeable.",
+    "The native golden is font-fingerprint-bound.",
+    "Archived Python references are historical, not an assertion of cross-language RGB equality.",
+    "CI matrix jobs are configured but were not executed by this local session."
+  ]
+}

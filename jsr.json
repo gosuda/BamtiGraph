@@ -1,0 +1,13 @@
+{
+  "name": "@safe/bantigraph",
+  "version": "0.1.0",
+  "license": "BSD-3-Clause",
+  "exports": "./src/index.ts",
+  "compilerOptions": {
+    "lib": ["es2022", "dom", "dom.iterable"],
+    "strict": true
+  },
+  "publish": {
+    "include": ["src/**/*.ts", "README.md", "LICENSE", "jsr.json"]
+  }
+}

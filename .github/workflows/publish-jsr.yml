@@ -1,0 +1,52 @@
+name: Publish JSR release
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: jsr-release-${{ github.event.release.tag_name }}
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    if: ${{ !github.event.release.prerelease }}
+    uses: ./.github/workflows/ci.yml
+
+  publish:
+    needs: verify
+    runs-on: ubuntu-latest
+    environment: jsr
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+      - name: Validate release tag and package identity
+        env:
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+        run: |
+          deno eval --config jsr.json '
+            import { VERSION } from "./src/index.ts";
+            const config = JSON.parse(await Deno.readTextFile("jsr.json"));
+            const stableVersion = /^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$/;
+            if (config.name !== "@safe/bantigraph" ||
+                !stableVersion.test(config.version) ||
+                Deno.env.get("RELEASE_TAG") !== `v${config.version}` ||
+                VERSION !== config.version) {
+              throw new Error("JSR release requires @safe/bantigraph, a stable version, and matching release tag, jsr.json version, and source VERSION.");
+            }
+            console.log(`Validated ${config.name}@${config.version}`);
+          '
+      - name: Verify JSR package before publication
+        run: deno publish --config jsr.json --dry-run
+      - name: Publish to JSR using GitHub OIDC
+        run: deno publish --config jsr.json

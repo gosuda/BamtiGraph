@@ -1,0 +1,134 @@
+{
+  "regression": {
+    "environment": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "devicePixelRatio": 1,
+    "passed": 21,
+    "failed": 0,
+    "total": 21,
+    "checks": [
+      {
+        "name": "System-font render has exact reference geometry",
+        "passed": true,
+        "milliseconds": 61
+      },
+      {
+        "name": "Repeated system-font output is stable within this browser",
+        "passed": true,
+        "milliseconds": 51
+      },
+      {
+        "name": "Canvas draw preserves all exported pixels",
+        "passed": true,
+        "milliseconds": 3
+      },
+      {
+        "name": "PNG is independently decoded by the browser",
+        "passed": true,
+        "milliseconds": 47
+      },
+      {
+        "name": "Invalid image and oversize PNG headers are rejected before decoding",
+        "passed": true,
+        "milliseconds": 2
+      },
+      {
+        "name": "Bitmap pixels match the Node regression fixture",
+        "passed": true,
+        "milliseconds": 40
+      },
+      {
+        "name": "2x bitmap output repeats each original RGBA pixel exactly",
+        "passed": true,
+        "milliseconds": 80
+      },
+      {
+        "name": "Mount provides keyboard access and sample descriptions",
+        "passed": true,
+        "milliseconds": 36
+      },
+      {
+        "name": "Duplicate mount is rejected without adding a second controller",
+        "passed": true,
+        "milliseconds": 0
+      },
+      {
+        "name": "Keyboard navigation announces actual nearest samples",
+        "passed": true,
+        "milliseconds": 7
+      },
+      {
+        "name": "Interactive overlay never changes PNG or base canvas pixels",
+        "passed": true,
+        "milliseconds": 4
+      },
+      {
+        "name": "Escape hides inspection without changing base pixels",
+        "passed": true,
+        "milliseconds": 1
+      },
+      {
+        "name": "Invalid updates leave the previous render intact",
+        "passed": true,
+        "milliseconds": 2
+      },
+      {
+        "name": "Valid updates replace chart and export metadata",
+        "passed": true,
+        "milliseconds": 35
+      },
+      {
+        "name": "Destroy restores the canvas and allows remounting",
+        "passed": true,
+        "milliseconds": 35
+      },
+      {
+        "name": "Non-interactive mount does not inject a keyboard tab stop",
+        "passed": true,
+        "milliseconds": 34
+      },
+      {
+        "name": "Native text accepts installed-script characters without HTML injection",
+        "passed": true,
+        "milliseconds": 39
+      },
+      {
+        "name": "CSV round-trip preserves nulls and numerical values",
+        "passed": true,
+        "milliseconds": 1
+      },
+      {
+        "name": "BigInt subtraction preserves counter increments beyond 2^53",
+        "passed": true,
+        "milliseconds": 1
+      },
+      {
+        "name": "IANA fall transition retains the two local 01:00 instants",
+        "passed": true,
+        "milliseconds": 1
+      },
+      {
+        "name": "Dashboard composition preserves independent chart metadata",
+        "passed": true,
+        "milliseconds": 85
+      }
+    ]
+  },
+  "customText": {
+    "defaultWatermark": "",
+    "watermark": "BAMTIGRAPH",
+    "imageSize": [
+      595,
+      211
+    ],
+    "changedPixels": 229,
+    "differenceBox": [
+      583,
+      5,
+      590,
+      53
+    ]
+  },
+  "clearing": {
+    "clearingRestoresOriginalRGBA": true
+  }
+}

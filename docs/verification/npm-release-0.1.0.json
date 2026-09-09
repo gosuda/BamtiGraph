@@ -1,0 +1,13 @@
+{
+  "name": "bamtigraph",
+  "version": "0.1.0",
+  "registry": "https://registry.npmjs.org/",
+  "publisher": "contrite",
+  "distTag": "latest",
+  "published": true,
+  "tarball": "https://registry.npmjs.org/bamtigraph/-/bamtigraph-0.1.0.tgz",
+  "integrity": "sha512-jyT9OGPR7JZWig6270FI962euSgGFQHOTPq6vn1VVFZXt80xdNk/OTr/WFaX1EVWL83yZ3NLcrkS3ZRMn0ocLA==",
+  "matchesVerifiedArtifact": true,
+  "publicRegistryConsumerSmokePassed": true,
+  "gitArtifacts": "Source and text fixtures only; generated binaries are not committed."
+}

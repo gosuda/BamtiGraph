@@ -1,0 +1,67 @@
+name: Publish npm release
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: npm-release-${{ github.event.release.tag_name }}
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    if: ${{ !github.event.release.prerelease }}
+    uses: ./.github/workflows/ci.yml
+
+  publish:
+    needs: verify
+    runs-on: ubuntu-latest
+    environment: npm
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          registry-url: https://registry.npmjs.org/
+      - name: Install an OIDC-capable npm CLI
+        run: npm install --global npm@11 --ignore-scripts
+      - run: npm ci
+      - run: npm run build
+      - name: Validate release and check for an existing version
+        id: release
+        env:
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+        run: |
+          node --input-type=module <<'NODE'
+          import assert from 'node:assert/strict';
+          import { readFileSync, appendFileSync } from 'node:fs';
+          import { VERSION } from './src/index.ts';
+          const pkg = JSON.parse(readFileSync('package.json', 'utf8'));
+          assert.equal(pkg.name, 'bamtigraph');
+          assert.match(pkg.version, /^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$/);
+          assert.equal(process.env.RELEASE_TAG, `v${pkg.version}`, 'Release tag must match package.json');
+          assert.equal(VERSION, pkg.version, 'Runtime version must match package.json');
+          const response = await fetch(`https://registry.npmjs.org/bamtigraph/${pkg.version}`, { signal: AbortSignal.timeout(30000) });
+          if (response.ok) {
+            const existing = await response.json();
+            assert.equal(existing.name, pkg.name);
+            assert.equal(existing.version, pkg.version);
+            console.log(`${pkg.name}@${pkg.version} is already published; skipping this immutable version.`);
+            appendFileSync(process.env.GITHUB_OUTPUT, 'publish=false\n');
+          } else if (response.status === 404) {
+            appendFileSync(process.env.GITHUB_OUTPUT, 'publish=true\n');
+          } else {
+            throw new Error(`npm version lookup failed: HTTP ${response.status}`);
+          }
+          NODE
+      - name: Publish to npm using GitHub OIDC
+        if: steps.release.outputs.publish == 'true'
+        run: npm publish --access public --ignore-scripts

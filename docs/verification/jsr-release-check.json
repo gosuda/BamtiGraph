@@ -1,0 +1,36 @@
+{
+  "package": "@safe/bantigraph",
+  "guards": [
+    {
+      "case": "matching stable release",
+      "publicationGuardAccepted": true,
+      "passed": true
+    },
+    {
+      "case": "missing tag",
+      "publicationGuardAccepted": false,
+      "passed": true
+    },
+    {
+      "case": "mismatched tag",
+      "publicationGuardAccepted": false,
+      "passed": true
+    },
+    {
+      "case": "prerelease tag",
+      "publicationGuardAccepted": false,
+      "passed": true
+    },
+    {
+      "case": "wrong package scope",
+      "publicationGuardAccepted": false,
+      "passed": true
+    },
+    {
+      "case": "source version mismatch",
+      "publicationGuardAccepted": false,
+      "passed": true
+    }
+  ],
+  "remotePublicationTested": false
+}

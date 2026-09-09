@@ -1,0 +1,12 @@
+{
+  "description": "Library regression baseline. Not an external reference screenshot.",
+  "version": "1.0.0",
+  "imageSize": [
+    595,
+    211
+  ],
+  "timezone": "UTC",
+  "fontMode": "bitmap",
+  "rgbaSHA256": "8d5668aa3d8a86f46e15ab961ea08a7ef751000be8abc9f61eefb7d5d7b8b2af",
+  "pngSHA256": "55fec0520f262293ab66e44f9243ebf43301580f57243e50eb8bf30739804010"
+}

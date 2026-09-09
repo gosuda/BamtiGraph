@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Minimal integration</title><link rel="icon" href="data:,"><link rel="stylesheet" href="../assets/ui.css">
+</head>
+<body><main class="example-shell">
+<header class="example-header"><p class="eyebrow"><a href="../index.html">Traffic overview</a> / Example</p><h1>Minimal integration</h1><p class="sub">One library script, one canvas, one explicit data source.</p></header>
+<div id="error" class="error" role="alert" hidden></div>
+<section class="panel"><div class="plot-scroll"><canvas id="chart">Inbound and outbound sample data.</canvas></div><div class="padded"><button id="save" class="primary">Export PNG</button><div id="status" class="status" role="status"></div></div></section>
+<section class="panel padded"><h2>Application code</h2><pre class="code">const chart = BamtiGraph.traffic(timestamps, inbound, outbound, {
+  title: 'Traffic - ether1',
+  timeAxis: BamtiGraph.daily('Asia/Seoul'),
+  yAxis: { minimum: 0, maximum: 240e6, majorStep: 50e6 },
+  watermark: '' // Optional customer text in the right-hand vertical margin.
+});
+const result = chart.draw(document.querySelector('canvas'));
+// On a user-initiated click:
+result.download('traffic.png');</pre><p class="note">Timestamps are Unix epoch <strong>seconds</strong>, or Date objects. Values remain in the units you supply. This page builds its input arrays in minimal.js. The default watermark is empty; setting it adds only your own text.</p></section>
+<footer class="footer"><span>Local demonstration · synthetic data</span><a href="../docs/index.html">Integration documentation</a></footer>
+</main><script src="../dist/bamtigraph.global.js"></script><script src="minimal.js"></script></body>
+</html>

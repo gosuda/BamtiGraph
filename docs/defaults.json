@@ -1,0 +1,143 @@
+{
+  "title": "",
+  "verticalLabel": "",
+  "watermark": "",
+  "series": [],
+  "timeAxis": {
+    "start": null,
+    "end": null,
+    "mode": "auto",
+    "timezone": "UTC",
+    "minorSeconds": null,
+    "majorSeconds": null,
+    "labelSeconds": null,
+    "labelFormat": null,
+    "ticks": null,
+    "majorTicks": null,
+    "minorTicks": null,
+    "labelOffsetSeconds": 0
+  },
+  "yAxis": {
+    "minimum": 0,
+    "maximum": null,
+    "majorStep": null,
+    "minorDivisions": 5,
+    "base": 1000,
+    "scaleFactor": null,
+    "suffix": null,
+    "decimals": null,
+    "legendDecimals": 2,
+    "showZeroSuffix": false
+  },
+  "layout": {
+    "width": 595,
+    "plotHeight": 122,
+    "left": 64,
+    "right": 31,
+    "top": 34,
+    "titleY": 8,
+    "titleOffsetX": 27,
+    "unitX": 5,
+    "xLabelGap": 5,
+    "yLabelGap": 6,
+    "legendGap": 20,
+    "legendRowHeight": 14,
+    "legendBottom": 7,
+    "legend": "reference",
+    "antialias": 4,
+    "pixelScale": 1,
+    "legendLayout": {
+      "nameX": 30,
+      "swatchX": 15,
+      "swatchWidth": 9,
+      "swatchHeight": 10,
+      "referenceWidth": 595,
+      "autoScaleColumns": true,
+      "compact": [
+        [
+          102,
+          228
+        ],
+        [
+          244,
+          370
+        ],
+        [
+          386,
+          512
+        ]
+      ],
+      "expanded": [
+        [
+          124,
+          250
+        ],
+        [
+          289,
+          415
+        ],
+        [
+          454,
+          580
+        ]
+      ],
+      "aligned": [
+        [
+          102,
+          250
+        ],
+        [
+          267,
+          415
+        ],
+        [
+          432,
+          580
+        ]
+      ]
+    }
+  },
+  "theme": {
+    "background": "#f3f3f3",
+    "canvas": "#ffffff",
+    "shadeLight": "#cfcfcf",
+    "shadeDark": "#9e9e9e",
+    "text": "#000000",
+    "minorGrid": "#8f8f8f3c",
+    "majorGrid": "#df4f4f3c",
+    "axis": "#777777",
+    "arrow": "#7f1f1f",
+    "watermark": "#aaaaaa",
+    "frame": "#000000",
+    "gridFront": true,
+    "gridDash": [
+      1,
+      1
+    ],
+    "titleSize": 14,
+    "axisSize": 11,
+    "unitSize": 10,
+    "legendSize": 11,
+    "watermarkSize": 8,
+    "captionSize": 11,
+    "titleAdvance": 8,
+    "axisAdvance": 6,
+    "legendAdvance": 7
+  },
+  "fonts": {
+    "mode": "system",
+    "family": "\"DejaVu Sans Mono\", \"Liberation Mono\", Consolas, monospace",
+    "titleFamily": null,
+    "unitFamily": null,
+    "captionFamily": "Arial, sans-serif",
+    "strictGlyphs": true
+  },
+  "legendLabels": [
+    "Current:",
+    "Average:",
+    "Maximum:"
+  ],
+  "missingLabel": "NaN",
+  "hRules": [],
+  "vRules": []
+}

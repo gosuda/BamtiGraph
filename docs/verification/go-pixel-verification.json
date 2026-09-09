@@ -1,0 +1,735 @@
+{
+  "checks": [
+    {
+      "case": "traffic",
+      "scale": 1,
+      "watermark": "",
+      "imageSize": [
+        595,
+        211
+      ],
+      "pixels": 125545,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "a7e2730cdb1fd3c4a33532772fc5e5e2b7c2b59561ee972b47fc9c11afbce6aa"
+    },
+    {
+      "case": "traffic",
+      "scale": 1,
+      "watermark": "BAMTIGRAPH",
+      "imageSize": [
+        595,
+        211
+      ],
+      "pixels": 125545,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "0a955e6b916db710e35457dfd59c38679d15f93d13edb8f54257a7d97d5aa703"
+    },
+    {
+      "case": "traffic",
+      "scale": 2,
+      "watermark": "",
+      "imageSize": [
+        1190,
+        422
+      ],
+      "pixels": 502180,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "8d58019646afcb6c69f1f99108b947a973958ce8139fd9da58c801311cd16ac7"
+    },
+    {
+      "case": "traffic",
+      "scale": 2,
+      "watermark": "BAMTIGRAPH",
+      "imageSize": [
+        1190,
+        422
+      ],
+      "pixels": 502180,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "c90b6708b0976f4617db7e2725499e77ae36b8edde7ad05467c5a3825a1ab800"
+    },
+    {
+      "case": "weekly",
+      "scale": 1,
+      "watermark": "",
+      "imageSize": [
+        595,
+        211
+      ],
+      "pixels": 125545,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "3abafe46c70ebff26ce67cc87a0279b13abe8a166496c4c9a7f2004f6c9e86bb"
+    },
+    {
+      "case": "weekly",
+      "scale": 1,
+      "watermark": "BAMTIGRAPH",
+      "imageSize": [
+        595,
+        211
+      ],
+      "pixels": 125545,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "a0db8ff7d3767692733a95ff2c28fe55dd601fb4da240348958b0fb5b06baf54"
+    },
+    {
+      "case": "weekly",
+      "scale": 2,
+      "watermark": "",
+      "imageSize": [
+        1190,
+        422
+      ],
+      "pixels": 502180,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "ffae2370e52c4f8308f47aa31a4ad6738aff87f730af5030b793cdf899d70206"
+    },
+    {
+      "case": "weekly",
+      "scale": 2,
+      "watermark": "BAMTIGRAPH",
+      "imageSize": [
+        1190,
+        422
+      ],
+      "pixels": 502180,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "585dcace60c6c6f8d71bfff04267f23ddd30c1596123456fe24ac6bb3efd411d"
+    },
+    {
+      "case": "negative",
+      "scale": 1,
+      "watermark": "",
+      "imageSize": [
+        595,
+        211
+      ],
+      "pixels": 125545,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "35a121a62584f988f7713c29d7ff3746d95d57548ac51f815e0b1d8a7091a045"
+    },
+    {
+      "case": "negative",
+      "scale": 1,
+      "watermark": "BAMTIGRAPH",
+      "imageSize": [
+        595,
+        211
+      ],
+      "pixels": 125545,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "9ddbadded52e3a0d8ff4b28699293b03ecb4aaed9acd940a217d5156cc02ac88"
+    },
+    {
+      "case": "negative",
+      "scale": 2,
+      "watermark": "",
+      "imageSize": [
+        1190,
+        422
+      ],
+      "pixels": 502180,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "0f83ea56cb85cf3feadd6e18a27c1594f5f03d3445705ebc6b90ab45b10b1f05"
+    },
+    {
+      "case": "negative",
+      "scale": 2,
+      "watermark": "BAMTIGRAPH",
+      "imageSize": [
+        1190,
+        422
+      ],
+      "pixels": 502180,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "d4e83e51da2777fc07342ee676f02cf90ff8bb16444b6af6a5d2f7b0f774c19e"
+    },
+    {
+      "case": "iec",
+      "scale": 1,
+      "watermark": "",
+      "imageSize": [
+        595,
+        211
+      ],
+      "pixels": 125545,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "a427061bdee084aa22f3e57ab59dfb291d09dfb08e0fa962dd9344eb28d13041"
+    },
+    {
+      "case": "iec",
+      "scale": 1,
+      "watermark": "BAMTIGRAPH",
+      "imageSize": [
+        595,
+        211
+      ],
+      "pixels": 125545,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "d92e282e52815bb231565de1e1fdbffc06f110fb152541d499f289d7c90ff1a3"
+    },
+    {
+      "case": "iec",
+      "scale": 2,
+      "watermark": "",
+      "imageSize": [
+        1190,
+        422
+      ],
+      "pixels": 502180,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "bd70b4e1ca1a29f903f3446080ca0c4a64375d3808afbf3399dda93b931cb8c4"
+    },
+    {
+      "case": "iec",
+      "scale": 2,
+      "watermark": "BAMTIGRAPH",
+      "imageSize": [
+        1190,
+        422
+      ],
+      "pixels": 502180,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "02659c962e86a5db786a22befa7dc93a1c45aabf9e39f0d5cc046dae337e5809"
+    },
+    {
+      "case": "gaps",
+      "scale": 1,
+      "watermark": "",
+      "imageSize": [
+        595,
+        211
+      ],
+      "pixels": 125545,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "c6663538b83de1144fd6edc2b02e138086b6618f85ab07390572e62bb4bc965d"
+    },
+    {
+      "case": "gaps",
+      "scale": 1,
+      "watermark": "BAMTIGRAPH",
+      "imageSize": [
+        595,
+        211
+      ],
+      "pixels": 125545,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "94eb44109cbf8c254f3a88a85c672314420329363dcecfd95676a3447a8f4347"
+    },
+    {
+      "case": "gaps",
+      "scale": 2,
+      "watermark": "",
+      "imageSize": [
+        1190,
+        422
+      ],
+      "pixels": 502180,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "f0403673f1d4f08ee51fd7036b8d7fd38e083e59390236ab26bfcd9578aa938e"
+    },
+    {
+      "case": "gaps",
+      "scale": 2,
+      "watermark": "BAMTIGRAPH",
+      "imageSize": [
+        1190,
+        422
+      ],
+      "pixels": 502180,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "e64d23b51cdde9cae187c7434b63ee25d621c716d90f912f2b5682087fee266e"
+    },
+    {
+      "case": "empty",
+      "scale": 1,
+      "watermark": "",
+      "imageSize": [
+        595,
+        211
+      ],
+      "pixels": 125545,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "a4dd48fd6f55915d57d88d60f71005edcd612023b5f31aad9bd8c01944adfd51"
+    },
+    {
+      "case": "empty",
+      "scale": 1,
+      "watermark": "BAMTIGRAPH",
+      "imageSize": [
+        595,
+        211
+      ],
+      "pixels": 125545,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "ae6f453cecf9e38c8cb2d5231ed15f2ddace710a08e842e5f1a4a1a8d133e5a7"
+    },
+    {
+      "case": "empty",
+      "scale": 2,
+      "watermark": "",
+      "imageSize": [
+        1190,
+        422
+      ],
+      "pixels": 502180,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "4aad2e035d6b0fda3d77791368b77d0c4c497671384f5e2ab032cde4cdfa0387"
+    },
+    {
+      "case": "empty",
+      "scale": 2,
+      "watermark": "BAMTIGRAPH",
+      "imageSize": [
+        1190,
+        422
+      ],
+      "pixels": 502180,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "ab936e9e6acf3668752d33791cf6f4a08f9699e097438268195cb93afb6d3d29"
+    },
+    {
+      "case": "singleton",
+      "scale": 1,
+      "watermark": "",
+      "imageSize": [
+        595,
+        211
+      ],
+      "pixels": 125545,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "12f9ce2b0dbfd11a72af540f8e287601889de8b67e80abe64b0c080e6cdf7125"
+    },
+    {
+      "case": "singleton",
+      "scale": 1,
+      "watermark": "BAMTIGRAPH",
+      "imageSize": [
+        595,
+        211
+      ],
+      "pixels": 125545,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "a79fb0b532d2a7ed1220123815bd1d845d99cd80e8927096fe90066bfb4761de"
+    },
+    {
+      "case": "singleton",
+      "scale": 2,
+      "watermark": "",
+      "imageSize": [
+        1190,
+        422
+      ],
+      "pixels": 502180,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "a04bb61174aa91f23227b5bc11da3e98d1ddc8bb2a2011b4c1c68b30d22b56c3"
+    },
+    {
+      "case": "singleton",
+      "scale": 2,
+      "watermark": "BAMTIGRAPH",
+      "imageSize": [
+        1190,
+        422
+      ],
+      "pixels": 502180,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "0bd7d41cdc710bc38c92f4ae52376dd9c9395c613a840620b58cc626ef0d211b"
+    },
+    {
+      "case": "clipped",
+      "scale": 1,
+      "watermark": "",
+      "imageSize": [
+        595,
+        211
+      ],
+      "pixels": 125545,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "fc6f617d7ea58ad38019817edbe414b1a51ed8a86bbb96d40b0e0035effcdefa"
+    },
+    {
+      "case": "clipped",
+      "scale": 1,
+      "watermark": "BAMTIGRAPH",
+      "imageSize": [
+        595,
+        211
+      ],
+      "pixels": 125545,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "80a90dc82f338fa63954687781792a15bc060bab88119d81a5ca8a4263b76654"
+    },
+    {
+      "case": "clipped",
+      "scale": 2,
+      "watermark": "",
+      "imageSize": [
+        1190,
+        422
+      ],
+      "pixels": 502180,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "41492ed19808481c915dde50299ec03b965ee7c6c8de0a46cfb910a6e4856836"
+    },
+    {
+      "case": "clipped",
+      "scale": 2,
+      "watermark": "BAMTIGRAPH",
+      "imageSize": [
+        1190,
+        422
+      ],
+      "pixels": 502180,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "cf40511d89182f08094d3373ed585726771dbf9e2358442399625ebfa28e7b34"
+    },
+    {
+      "case": "steps",
+      "scale": 1,
+      "watermark": "",
+      "imageSize": [
+        595,
+        211
+      ],
+      "pixels": 125545,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "c74d1a0d4b2054af05eaa62ea6f06d73ae6c743ab54f8d20cbc616c182fcb58f"
+    },
+    {
+      "case": "steps",
+      "scale": 1,
+      "watermark": "BAMTIGRAPH",
+      "imageSize": [
+        595,
+        211
+      ],
+      "pixels": 125545,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "22a57f1558841c17bda32cc573405ab19795cd371d52f2582e2a7430933cd091"
+    },
+    {
+      "case": "steps",
+      "scale": 2,
+      "watermark": "",
+      "imageSize": [
+        1190,
+        422
+      ],
+      "pixels": 502180,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "2b6c8da4884a441b16af61e528b2f2a3c46f386209def10847879749fc7da6f8"
+    },
+    {
+      "case": "steps",
+      "scale": 2,
+      "watermark": "BAMTIGRAPH",
+      "imageSize": [
+        1190,
+        422
+      ],
+      "pixels": 502180,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "c733d69b6e7c3dae1b31663fd73e0177fb43d0b12cb07b601f1b8caa09c348dd"
+    },
+    {
+      "case": "dst_spring",
+      "scale": 1,
+      "watermark": "",
+      "imageSize": [
+        595,
+        211
+      ],
+      "pixels": 125545,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "eabe82d9e54627957621bb6685bf2264159782bcec36834f2b08a3602880a611"
+    },
+    {
+      "case": "dst_spring",
+      "scale": 1,
+      "watermark": "BAMTIGRAPH",
+      "imageSize": [
+        595,
+        211
+      ],
+      "pixels": 125545,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "66f7bb6559488889a45b1b4467493ca7b3f237ceae551586251bc007eb6a7a65"
+    },
+    {
+      "case": "dst_spring",
+      "scale": 2,
+      "watermark": "",
+      "imageSize": [
+        1190,
+        422
+      ],
+      "pixels": 502180,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "18376a1f1a86678440ed8066d2775d39320b7be54f3726311ab8d7dccd05b6fc"
+    },
+    {
+      "case": "dst_spring",
+      "scale": 2,
+      "watermark": "BAMTIGRAPH",
+      "imageSize": [
+        1190,
+        422
+      ],
+      "pixels": 502180,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "ab4d5e9a911e840f2b6e4f7f9dab6d3cf18fd9f888ed85798ad811737157eee4"
+    },
+    {
+      "case": "dst_fall",
+      "scale": 1,
+      "watermark": "",
+      "imageSize": [
+        595,
+        211
+      ],
+      "pixels": 125545,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "8ff275be14651bd51759beb2d5db9b13cb412fd7f3ab368ae96f2271857ea3cc"
+    },
+    {
+      "case": "dst_fall",
+      "scale": 1,
+      "watermark": "BAMTIGRAPH",
+      "imageSize": [
+        595,
+        211
+      ],
+      "pixels": 125545,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "7f1ae9ec73830a5adf26cc53bfa5ed79630555b18998511f240ac66e04b9de11"
+    },
+    {
+      "case": "dst_fall",
+      "scale": 2,
+      "watermark": "",
+      "imageSize": [
+        1190,
+        422
+      ],
+      "pixels": 502180,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "472632286e86da338cf1ac7a5455003d5937b9e2876798765cf7b7e0edb3d1b7"
+    },
+    {
+      "case": "dst_fall",
+      "scale": 2,
+      "watermark": "BAMTIGRAPH",
+      "imageSize": [
+        1190,
+        422
+      ],
+      "pixels": 502180,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "bf79ceb39c98592686cb42a60aa9a4f1047076edd1a8babc477d5fc5c6d49c3a"
+    },
+    {
+      "case": "monthly",
+      "scale": 1,
+      "watermark": "",
+      "imageSize": [
+        595,
+        211
+      ],
+      "pixels": 125545,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "0169908f3f15b15b8099b8f043f65040f6c2bb472b5b6ff400d74c1a07e269b1"
+    },
+    {
+      "case": "monthly",
+      "scale": 1,
+      "watermark": "BAMTIGRAPH",
+      "imageSize": [
+        595,
+        211
+      ],
+      "pixels": 125545,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "0e56a980d5621c099a3bf42268e37fc445088f45bf0f5f6c88bd57d993db33f5"
+    },
+    {
+      "case": "monthly",
+      "scale": 2,
+      "watermark": "",
+      "imageSize": [
+        1190,
+        422
+      ],
+      "pixels": 502180,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "60ad7c1fe64aa359b1ceed1e89a23efe964532873b5bfc1f24557e8958cd6e2c"
+    },
+    {
+      "case": "monthly",
+      "scale": 2,
+      "watermark": "BAMTIGRAPH",
+      "imageSize": [
+        1190,
+        422
+      ],
+      "pixels": 502180,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "8018ce59d559cb9f0c0d1b3b60a2fbf6b8944cbd0fa095780cfae0e07e027250"
+    },
+    {
+      "case": "yearly",
+      "scale": 1,
+      "watermark": "",
+      "imageSize": [
+        595,
+        211
+      ],
+      "pixels": 125545,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "e79bf67238431e403de275ec2dc15a3b0ba9708e68f359449bfcf54bf3f59b0f"
+    },
+    {
+      "case": "yearly",
+      "scale": 1,
+      "watermark": "BAMTIGRAPH",
+      "imageSize": [
+        595,
+        211
+      ],
+      "pixels": 125545,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "00aca805a69316c5fa7f3f91770889a061c8ae3f527c545c3719a73c945acc85"
+    },
+    {
+      "case": "yearly",
+      "scale": 2,
+      "watermark": "",
+      "imageSize": [
+        1190,
+        422
+      ],
+      "pixels": 502180,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "721291275a360aeb47a90f0b846e820f8772f93244cf7ed5c03656c9275b1910"
+    },
+    {
+      "case": "yearly",
+      "scale": 2,
+      "watermark": "BAMTIGRAPH",
+      "imageSize": [
+        1190,
+        422
+      ],
+      "pixels": 502180,
+      "differentPixels": 0,
+      "differentChannels": 0,
+      "maxError": 0,
+      "rgbaSHA256": "d542c6ec327d108b5157b34fadfaf719729b5babbe4761ad855a00a84f61973b"
+    }
+  ],
+  "comparison": "Original native Go vs BamtiGraph native Go; full RGBA; no cropping; same explicit installed font",
+  "font": "Menlo.ttc",
+  "fontSHA256": "dc256e0b39c2a6fec947129d421fef41b8b429f58f9b6e5d1b148c87f775c1f6"
+}

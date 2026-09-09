@@ -1,0 +1,94 @@
+{
+  "examples": [
+    {
+      "example": "minimal",
+      "error": null,
+      "canvases": [
+        [
+          595,
+          211
+        ]
+      ],
+      "precision": null,
+      "simulationPaused": null
+    },
+    {
+      "example": "metrics",
+      "error": null,
+      "canvases": [
+        [
+          595,
+          211
+        ],
+        [
+          595,
+          211
+        ],
+        [
+          595,
+          211
+        ]
+      ],
+      "precision": null,
+      "simulationPaused": null
+    },
+    {
+      "example": "csv",
+      "error": null,
+      "canvases": [
+        [
+          595,
+          211
+        ]
+      ],
+      "precision": null,
+      "simulationPaused": null
+    },
+    {
+      "example": "precision",
+      "error": null,
+      "canvases": [
+        [
+          595,
+          211
+        ],
+        [
+          1190,
+          422
+        ]
+      ],
+      "precision": {
+        "deterministic": true,
+        "exactScale": true
+      },
+      "simulationPaused": null
+    },
+    {
+      "example": "live",
+      "error": null,
+      "canvases": [
+        [
+          595,
+          211
+        ]
+      ],
+      "precision": null,
+      "simulationPaused": true
+    }
+  ],
+  "live": {
+    "running": true,
+    "changed": true,
+    "count": 301
+  },
+  "csv": {
+    "rejected": true,
+    "preserved": true
+  },
+  "standalone": {
+    "charts": 2,
+    "watermark": "",
+    "externalResources": 0,
+    "error": false
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "width": 595,
+  "height": 211,
+  "rgba_sha256": "a3346ccf65477257220350d29bf2141d2f45786bd445ec4b7c1cda4d7641f93b",
+  "fonts": {
+    "axis": {
+      "filename": "Menlo.ttc",
+      "sha256": "dc256e0b39c2a6fec947129d421fef41b8b429f58f9b6e5d1b148c87f775c1f6",
+      "size": 11,
+      "face_index": 0
+    },
+    "caption": {
+      "filename": "Arial Bold.ttf",
+      "sha256": "d72db21f9242aedd6b917d8549ad5921766b24d5f8d0becfda2ff4c620b3c2e0",
+      "size": 11,
+      "face_index": 0
+    },
+    "legend": {
+      "filename": "Menlo.ttc",
+      "sha256": "dc256e0b39c2a6fec947129d421fef41b8b429f58f9b6e5d1b148c87f775c1f6",
+      "size": 11,
+      "face_index": 0
+    },
+    "title": {
+      "filename": "Menlo.ttc",
+      "sha256": "dc256e0b39c2a6fec947129d421fef41b8b429f58f9b6e5d1b148c87f775c1f6",
+      "size": 14,
+      "face_index": 0
+    },
+    "unit": {
+      "filename": "Menlo.ttc",
+      "sha256": "dc256e0b39c2a6fec947129d421fef41b8b429f58f9b6e5d1b148c87f775c1f6",
+      "size": 10,
+      "face_index": 0
+    },
+    "watermark": {
+      "filename": "Menlo.ttc",
+      "sha256": "dc256e0b39c2a6fec947129d421fef41b8b429f58f9b6e5d1b148c87f775c1f6",
+      "size": 8,
+      "face_index": 0
+    }
+  }
+}

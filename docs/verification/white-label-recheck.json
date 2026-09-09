@@ -1,0 +1,16 @@
+{
+  "npm": "bamtigraph",
+  "jsr": "@safe/bantigraph",
+  "defaultWatermark": "",
+  "demoWatermark": "",
+  "defaultEqualsExplicitBlankPNG": true,
+  "clearingRestoresRGBA": true,
+  "customText": "BAMTIGRAPH",
+  "customTextDifferenceBox": [
+    584,
+    5,
+    590,
+    51
+  ],
+  "changedPixels": 78
+}
