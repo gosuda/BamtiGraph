@@ -16,11 +16,11 @@ These images were rendered with BamtiGraph using the included sample data.
 
 ### Daily and weekly traffic
 
-![Daily and weekly traffic charts](https://raw.githubusercontent.com/gosuda/BamtiGraph/v1.0.0/docs/images/traffic.png)
+![Daily and weekly traffic charts](https://raw.githubusercontent.com/gosuda/BamtiGraph/v1.1.0/docs/images/traffic.png)
 
 ### CPU, memory, and temperature
 
-![CPU, memory, and temperature charts](https://raw.githubusercontent.com/gosuda/BamtiGraph/v1.0.0/docs/images/metrics.png)
+![CPU, memory, and temperature charts](https://raw.githubusercontent.com/gosuda/BamtiGraph/v1.1.0/docs/images/metrics.png)
 
 ## Try the demo
 
@@ -42,7 +42,7 @@ Install the npm package:
 npm install bamtigraph
 ```
 
-The Deno package name is `jsr:@safe/bantigraph`; JSR releases are published separately.
+The Deno package name is `jsr:@safe/bamtigraph`; JSR releases are published separately.
 
 This Node.js example creates a chart and saves it as `traffic.png`:
 
@@ -96,7 +96,7 @@ In Go, set `graph.Watermark = "My network"`, or pass `-watermark "My network"` t
 
 In the demo, use **Custom edge text**. You can also change the surrounding page labels in `assets/brand.js`.
 
-![Chart with an optional BAMTIGRAPH label](https://raw.githubusercontent.com/gosuda/BamtiGraph/v1.0.0/docs/images/custom-label.png)
+![Chart with an optional BAMTIGRAPH label](https://raw.githubusercontent.com/gosuda/BamtiGraph/v1.1.0/docs/images/custom-label.png)
 
 ## Explore more
 

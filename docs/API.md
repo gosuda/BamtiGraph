@@ -1,6 +1,6 @@
 # BamtiGraph TypeScript API reference
 
-Version 1.0.0. Import default or named exports from npm `bamtigraph` or JSR `@safe/bantigraph`. The browser bundle `dist/bamtigraph.global.js` defines `globalThis.BamtiGraph`. ESM/CommonJS exports and declarations are generated from strict TypeScript in `src/index.ts`; no runtime dependency is required.
+Version 1.1.0. Import default or named exports from npm `bamtigraph` or JSR `@safe/bamtigraph`. The browser bundle `dist/bamtigraph.global.js` defines `globalThis.BamtiGraph`. ESM/CommonJS exports and declarations are generated from strict TypeScript in `src/index.ts`; no runtime dependency is required.
 
 ## Data model and ownership
 

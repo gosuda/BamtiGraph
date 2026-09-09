@@ -1,6 +1,6 @@
 {
   "npm": "bamtigraph",
-  "jsr": "@safe/bantigraph",
+  "jsr": "@safe/bamtigraph",
   "defaultWatermark": "",
   "demoWatermark": "",
   "defaultEqualsExplicitBlankPNG": true,

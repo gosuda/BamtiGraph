@@ -66,7 +66,7 @@
   },
   "publication": {
     "npm": "bamtigraph@1.0.0",
-    "jsr": "@safe/bantigraph@1.0.0",
+    "jsr": "@safe/bamtigraph@1.0.0",
     "published": false,
     "tarball": "bamtigraph-1.0.0.tgz"
   },

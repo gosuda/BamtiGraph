@@ -1,6 +1,6 @@
 {
-  "name": "@safe/bantigraph",
-  "version": "1.0.0",
+  "name": "@safe/bamtigraph",
+  "version": "1.1.0",
   "license": "BSD-3-Clause",
   "exports": "./src/index.ts",
   "compilerOptions": {

@@ -1,5 +1,5 @@
 {
-  "package": "@safe/bantigraph",
+  "package": "@safe/bamtigraph",
   "guards": [
     {
       "case": "matching stable release",
