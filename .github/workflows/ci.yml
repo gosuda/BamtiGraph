@@ -1,16 +1,24 @@
 name: Verify
 on:
   push:
+    branches: [main]
   pull_request:
   workflow_call:
+  schedule:
+    - cron: '31 4 * * 1'
+  workflow_dispatch:
 permissions:
   contents: read
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   typescript:
-    runs-on: ubuntu-latest
+    runs-on: depot-ubuntu-24.04
     strategy:
       matrix:
-        node: [20, 22, 24]
+        node: ${{ (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || startsWith(github.ref, 'refs/tags/')) && fromJSON('[20,22,24]') || fromJSON('[24]') }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -28,10 +36,10 @@ jobs:
       - run: npm pack --dry-run --ignore-scripts
       - run: deno publish --config jsr.json --dry-run
   go:
-    runs-on: ubuntu-latest
+    runs-on: depot-ubuntu-24.04
     strategy:
       matrix:
-        go: ["1.22.x", "stable"]
+        go: ${{ (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || startsWith(github.ref, 'refs/tags/')) && fromJSON('["1.22.x","stable"]') || fromJSON('["stable"]') }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5
